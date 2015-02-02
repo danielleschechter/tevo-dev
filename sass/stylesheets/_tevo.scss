@@ -1654,9 +1654,6 @@ form {
   -o-background-size: cover;
   background-size: cover;
 
-
-
-
 }
 
 .hoverTeam2 {
@@ -1785,13 +1782,45 @@ form {
   background-image: url(../images/eric.png);
 }
 
+.ch-img-4 {
+  background-image: url(../images/kfir.png);
+}
+
+.ch-img-5 {
+  background-image: url(../images/joe.png);
+}
+
+.ch-img-6 {
+  background-image: url(../images/paul.png);
+}
+
+.ch-img-7 {
+  background-image: url(../images/danielle.png);
+}
+
+.ch-img-8 {
+  background-image: url(../images/rich.png);
+}
+
+.ch-img-9 {
+  background-image: url(../images/wayne.png);
+}
+
+.ch-img-10 {
+  background-image: url(../images/ian.png);
+}
+
+.ch-img-11 {
+  background-image: url(../images/wendy.png);
+}
+
 .ch-info h3 {
   color: #fff;
-  text-transform: uppercase;
+//  text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 24px;
+  font-size: 18px;
   margin: 0 15px;
-  padding: 60px 0 0 0;
+  padding: 80px 0 0 0;
   height: 110px;
   font-family: 'Open Sans', Arial, sans-serif;
   text-shadow:
@@ -1802,7 +1831,7 @@ form {
 .ch-info p {
   color: #fff;
   padding: 10px 5px;
-  font-style: italic;
+//  font-style: italic;
   margin: 0 30px;
   font-size: 12px;
   border-top: 1px solid rgba(255,255,255,0.5);
