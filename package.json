@@ -1,0 +1,25 @@
+{
+  "name": "tevo_website",
+  "version": "0.0.2",
+  "engines": {
+    "node": "0.10.30",
+    "npm": "2.1.12"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "~4.2.0",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "ejs": "~0.8.5",
+    "less-middleware": "1.0.x",
+    "mailgun": "0.4.2",
+    "node-sass": "0.9.5-rc1",
+    "node-sass-middleware": "0.2.0"
+  }
+}
