@@ -1550,19 +1550,6 @@ form {
 
   }
 
-//  .module:hover{
-//    background: $gray;
-//    color: $white;
-//
-//    .fa-inverse{
-//      color: $white;
-//    }
-//
-//    p{
-//      color: $white !important;
-//    }
-//  }
-
   .moduleSupport{
     a{
       color: $dark-green;
@@ -1648,72 +1635,15 @@ form {
 
 
 .hoverTeam {
-  background: url(http://media.giphy.com/media/TS4lhxfqE6Ix2/giphy.gif) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-}
-
-.hoverTeam2 {
-  background: url(http://media.giphy.com/media/jjR1SPuLzxORq/giphy.gif) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
-
-}
-
-
-.hoverTeam3 {
-  background: url(http://media.giphy.com/media/yoJC2ESKKQZ5swxztS/giphy.gif) no-repeat center center fixed;
+  background-position: center center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.hoverTeam4 {
-  background: url(http://media.giphy.com/media/iyVpSFuNYOe2Y/giphy.gif) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.hoverTeam5 {
-  background: url(http://media.giphy.com/media/lXiRKeGZeOyEpRHkk/giphy.gif) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.hoverTeam6 {
-  background: url(http://media.giphy.com/media/8vEhb7zhaTsv6/giphy.gif) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.hoverTeam7 {
-  background: url(http://media.giphy.com/media/Qvw9p4uX7IBy0/giphy.gif) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.hoverTeam8 {
-  background: url(http://media.giphy.com/media/anS3lByM8xz44/giphy.gif) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
 
 .bottomAbout{
   background: url(/images/nyc.jpg) repeat-x center center;
@@ -1721,21 +1651,9 @@ form {
   min-height: 587px;
 }
 
-//nav {
-//  position:fixed;
-//  background:black;
-//  color:white;
-//  opacity:0.9;
-//  padding:20px;
-//  font-family:arial;
-//}
-//nav a {
-//  display:block
-//}
 
 
-
-///FLIP
+///FLIP FACES
 
 .ch-grid {
   margin: 20px 0 0 0;
@@ -1819,49 +1737,49 @@ form {
   opacity: 0;
 }
 
-.ch-img-1 {
+.ch-img-0 {
   background-image: url(../images/greg.png);
 }
 
-.ch-img-2 {
+.ch-img-1 {
   background-image: url(../images/manish.png);
 }
 
-.ch-img-3 {
+.ch-img-2 {
   background-image: url(../images/eric.png);
 }
 
-.ch-img-4 {
+.ch-img-3 {
   background-image: url(../images/kfir.png);
 }
 
-.ch-img-5 {
+.ch-img-4 {
 
   background: url(/images/joe2.jpg);
 
 }
 
-.ch-img-6 {
+.ch-img-5 {
   background-image: url(../images/paul.png);
 }
 
-.ch-img-7 {
-  background-image: url(../images/danielle.png);
+.ch-img-6 {
+  background-image: url(../images/danielle.jpg);
 }
 
-.ch-img-8 {
+.ch-img-7 {
   background-image: url(../images/rich.png);
 }
 
-.ch-img-9 {
-  background-image: url(../images/wayne.png);
+.ch-img-8 {
+  background-image: url(../images/colin.jpg);
 }
 
-.ch-img-10 {
+.ch-img-9 {
   background-image: url(../images/ian.png);
 }
 
-.ch-img-11 {
+.ch-img-10 {
   background-image: url(../images/wendy.png);
 }
 
@@ -1922,4 +1840,17 @@ form {
   -ms-transform: rotate3d(1,0,0,0deg);
   transform: rotate3d(1,0,0,0deg);
   opacity: 1;
+}
+
+
+
+///Jobs
+
+.panel-default>.panel-heading{
+  background-color: #ffffff;
+}
+
+.panel{
+
+  border:none;
 }
