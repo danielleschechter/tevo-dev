@@ -23,6 +23,7 @@
 
   <link rel="stylesheet" href="/stylesheets/style.css">
   <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Montserrat:700,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/stylesheets/jquery.fancybox.css" type="text/css" media="screen" />
 
@@ -30,103 +31,170 @@
 </head>
 <body>
 
-<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
-  <div class="container">
-    <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="/" class="navbar-brand"><img src="/images/logo.png" width="230px" style="margin-top:-10px; "></a>
-    </div>
-    <nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">
-      <ul class="nav navbar-nav links">
-        <li class="dropdown" id="productmenu">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <i class="fa fa-caret-down"></i></i></a>
-          <ul class="dropdown-menu" id='Numberlist'>
-            <!--<ul class='list-inline'>-->
-            <li><p class="navbar-text">CORE</p></li>
+<!--<div class="site-wrapper" style="background: pink;">-->
 
-            <li><a href="/products/point-of-sale">Point of sale</a></li>
-            <li><a href="/products/distribution">List your tickets</a></li>
+  <!--<div class="site-wrapper-inner">-->
 
-            <li class="divider"></li>
+    <!--<div class="cover-container" >-->
 
-            <li><p class="navbar-text">WEB</p></li>
-            <li><a href="/products/carbon">Carbon</a></li>
-            <li><a href="/products/api">API</a></li>
+      <!--<div class="masthead clearfix">-->
 
 
-            <li class="divider"></li>
-            <li><p class="navbar-text">COMPONENTS</p></li>
-            <li><a href="/products/evopay">EvoPay</a></li>
-            <li><a href="/products/fraud-protection">Fraud Protection</a></li>
-            <!--<li><a href="#">FedEX</a></li>-->
-            <!--<li><a href="#">Quickbooks</a></li> <!--<li><a href="#">FedEX</a></li>-->
-            <!--<li><a href="#">Quickbooks</a></li>-->
 
 
+
+
+        <nav class="navbar navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a href="/" class="navbar-brand"><img src="/images/logo.png" width="330px" style="margin-top:-20px; "></a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse pull-right">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Point of sale</a></li>
+                <li class="active"><a href="#">Products</a></li>
+                <li><a href="#about">Pricing</a></li>
+                <li><a href="#contact">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button><a href="#contact">Login</a></button></li>
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<header class="navbar bs-docs-nav" role="banner">-->
+  <!--<div class="container">-->
+    <!--<div class="navbar-header">-->
+      <!--<button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">-->
+        <!--<span class="sr-only">Toggle navigation</span>-->
+        <!--<span class="icon-bar"></span>-->
+        <!--<span class="icon-bar"></span>-->
+        <!--<span class="icon-bar"></span>-->
+      <!--</button>-->
+      <!--<a href="/" class="navbar-brand"><img src="/images/logo.png" width="230px" style="margin-top:-10px; "></a>-->
+    <!--</div>-->
+    <!--<nav class="collapse navbar-collapse bs-navbar-collapse navbar-right" role="navigation">-->
+
+
+
+      <!--<ul class="nav navbar-nav links">-->
+        <!--<li class="dropdown" id="productmenu">-->
+          <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <i class="fa fa-caret-down"></i></i></a>-->
+          <!--<ul class="dropdown-menu" id='Numberlist'>-->
+            <!--&lt;!&ndash;<ul class='list-inline'>&ndash;&gt;-->
+            <!--<li><p class="navbar-text">CORE</p></li>-->
+
+            <!--<li><a href="/products/point-of-sale">Point of sale</a></li>-->
+            <!--<li><a href="/products/distribution">List your tickets</a></li>-->
+
+            <!--<li class="divider"></li>-->
+
+            <!--<li><p class="navbar-text">WEB</p></li>-->
+            <!--<li><a href="/products/carbon">Carbon</a></li>-->
+            <!--<li><a href="/products/api">API</a></li>-->
+
+
+            <!--<li class="divider"></li>-->
+            <!--<li><p class="navbar-text">COMPONENTS</p></li>-->
+            <!--<li><a href="/products/evopay">EvoPay</a></li>-->
+            <!--<li><a href="/products/fraud-protection">Fraud Protection</a></li>-->
+            <!--&lt;!&ndash;<li><a href="#">FedEX</a></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><a href="#">Quickbooks</a></li> &lt;!&ndash;<li><a href="#">FedEX</a></li>&ndash;&gt;-->
+            <!--&lt;!&ndash;<li><a href="#">Quickbooks</a></li>&ndash;&gt;-->
+
+
+          <!--&lt;!&ndash;</ul>&ndash;&gt;-->
           <!--</ul>-->
-          </ul>
-        </li>
-        <li id="pricingmenu">
-          <a href="/pricing">Pricing</a>
-        </li>
-        <li>
-          <a href="/about"">About</a>
-        </li>
-        <li>
-          <a href="http://blog.ticketevolution.com">Blog</a>
-        </li>
-        <li class="dropdown" id="productmenu">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact </a>
+        <!--</li>-->
+        <!--<li id="pricingmenu">-->
+          <!--<a href="/pricing">Pricing</a>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<a href="/about"">About</a>-->
+        <!--</li>-->
+        <!--<li>-->
+          <!--<a href="http://blog.ticketevolution.com">Blog</a>-->
+        <!--</li>-->
+        <!--<li class="dropdown" id="productmenu">-->
+          <!--<a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact </a>-->
 
 
 
-          <ul class="dropdown-menu" id='Numberlist'>
-            <!--<ul class='list-inline'>-->
+          <!--<ul class="dropdown-menu" id='Numberlist'>-->
+            <!--&lt;!&ndash;<ul class='list-inline'>&ndash;&gt;-->
 
 
 
-            <li><a href="/contact-support">Order & Technical Support</a></li>
+            <!--<li><a href="/contact-support">Order & Technical Support</a></li>-->
 
-            <li class="divider"></li>
+            <!--<li class="divider"></li>-->
 
-            <li><a href="/contact">Product Interest</a></li>
-
-
-
-            <!--</ul>-->
-          </ul>
-
-        </li>
-        <li class="dropdown"><button type="button" class="btn btn-primary btn-large navbar-btn dropdown-toggle" data-toggle="dropdown">
-        login
-          </button>
-          <ul class="dropdown-menu" id='Numberlist'>
-            <!--<ul class='list-inline'>-->
-
-            <li><a href="https://core.ticketevolution.com/sessions/new" target="_blank">Point of Sale</a></li>
-            <li class="divider"></li>
-            <li><a href="https://exchange.ticketevolution.com/users/sign_in" target="_blank">Exchange</a></li>
-            <li class="divider"></li>
-            <li><a href="http://carbon.ticketevolution.com/vendors/sign_in" target="_blank">Carbon</a></li>
+            <!--<li><a href="/contact">Product Interest</a></li>-->
 
 
-            <!--<li><a href="http://carbon.staging.ticketevolution.com/vendors/sign_in" target="_blank">Carbon</a></li>-->
-              <!--</ul>-->
-          </ul>
-        </li>
-      </ul>
 
-    </nav>
+            <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+          <!--</ul>-->
+
+        <!--</li>-->
+        <!--<li class="dropdown"><button type="button" class="btn btn-primary btn-large navbar-btn dropdown-toggle" data-toggle="dropdown">-->
+        <!--login-->
+          <!--</button>-->
+          <!--<ul class="dropdown-menu" id='Numberlist'>-->
+            <!--&lt;!&ndash;<ul class='list-inline'>&ndash;&gt;-->
+
+            <!--<li><a href="https://core.ticketevolution.com/sessions/new" target="_blank">Point of Sale</a></li>-->
+            <!--<li class="divider"></li>-->
+            <!--<li><a href="https://exchange.ticketevolution.com/users/sign_in" target="_blank">Exchange</a></li>-->
+            <!--<li class="divider"></li>-->
+            <!--<li><a href="http://carbon.ticketevolution.com/vendors/sign_in" target="_blank">Carbon</a></li>-->
 
 
+            <!--&lt;!&ndash;<li><a href="http://carbon.staging.ticketevolution.com/vendors/sign_in" target="_blank">Carbon</a></li>&ndash;&gt;-->
+              <!--&lt;!&ndash;</ul>&ndash;&gt;-->
+          <!--</ul>-->
+        <!--</li>-->
+      <!--</ul>-->
+
+    <!--</nav>-->
 
 
 
 
-  </div>
-</header>
+
+
+  <!--</div>-->
+
+
+<!--<nav id="menu">-->
+  <!--<a href="#menu" class="menu-link"></a>-->
+  <!--<ul>-->
+    <!--<span><a href="#">Title</a></span>-->
+    <!--<li><a href="#">Home</a></li>-->
+    <!--<li><a href="#">About</a></li>-->
+    <!--<li><a href="#">Contact</a></li>-->
+    <!--<li><a href="#">Blog</a></li>-->
+  <!--</ul>-->
+<!--</nav>-->
+
+<!--</header>-->
+
