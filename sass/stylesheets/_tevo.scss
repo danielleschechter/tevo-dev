@@ -364,10 +364,13 @@ p {
 
 
 .cover{
-  background: $medium-gray;
+  background: $dark-gray url(/images/bg1.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
   color: $white;
   margin-top:105px;
   border-top:15px solid $dark-green;
+  border-bottom:15px solid $dark-green;
 
   h1, p {
     text-align:left;
